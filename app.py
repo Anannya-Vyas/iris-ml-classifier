@@ -59,7 +59,7 @@ st.sidebar.write("Dataset: Iris (150 samples)")
 st.sidebar.divider()
 st.sidebar.header("👩‍💻 About Me")
 st.sidebar.write("Python & ML Developer")
-st.sidebar.write("GitHub: https://github.com/anannyavyas")
+st.sidebar.write("GitHub: https://github.com/Anannya-Vyas")
 st.sidebar.write("PyPI: https://pypi.org/project/stattools-anannya/")
 
 # ---------------- MODEL EVALUATION ---------------- #
@@ -212,7 +212,7 @@ if st.button("Predict"):
         paper_bgcolor="#0e1117",
         font=dict(color="white")
     )
-
+ 
     st.plotly_chart(fig_prob, use_container_width=True)
 
     # -------- Plot User Input on PCA -------- #
